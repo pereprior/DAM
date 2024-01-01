@@ -1,0 +1,20 @@
+# Crear grupos globales para cada departamento
+dn: cn=GGBioInformatica,ou=grupos,ou=GGBioInformatica,ou=picasso2,dc=res,dc=local
+objectClass: posixGroup
+cn: GGBioInformatica
+gidNumber: 5100
+
+dn: cn=GGAsesoria,ou=grupos,ou=GGAsesoria,ou=picasso2,dc=res,dc=local
+objectClass: posixGroup
+cn: GGAsesoria
+gidNumber: 5101
+
+dn: cn=GGSoporte,ou=grupos,ou=GGSoporte,ou=picasso2,dc=res,dc=local
+objectClass: posixGroup
+cn: GGSoporte
+gidNumber: 5102
+
+dn: cn=GGAdministracion,ou=grupos,ou=GGAdministracion,ou=picasso2,dc=res,dc=local
+objectClass: posixGroup
+cn: GGAdministracion
+gidNumber: 5103

@@ -1,0 +1,56 @@
+# Crear usuarios por departamento
+dn: uid=alberto,ou=usuarios,ou=GGBioInformatica,ou=picasso2,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: alberto
+givenName: Alberto
+cn: Alberto Saca
+sn: GGBioInformatica
+uidNumber: 10100
+gidNumber: 5100
+userPassword: {SHA}sD27M6dS7toODPqICD0cEuSsBwCgq1aL
+loginShell: /bin/bash
+homeDirectory: /home/alberto
+
+dn: uid=marta,ou=usuarios,ou=GGAsesoria,ou=picasso2,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: marta
+givenName: Marta
+cn: Marta Car
+sn: GGAsesoria
+uidNumber: 10101
+gidNumber: 5101
+userPassword: {SHA}sD27M6dS7toODPqICD0cEuSsBwCgq1aL
+loginShell: /bin/bash
+homeDirectory: /home/marta
+
+dn: uid=amelie,ou=usuarios,ou=GGSoporte,ou=picasso2,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: amelie
+givenName: Amelie
+cn: Amelie Tribu
+sn: GGSoporte
+uidNumber: 10102
+gidNumber: 5102
+userPassword: {SHA}sD27M6dS7toODPqICD0cEuSsBwCgq1aL
+loginShell: /bin/bash
+homeDirectory: /home/amelie
+
+dn: uid=carlos,ou=usuarios,ou=GGAdministracion,ou=picasso2,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: carlos
+givenName: Carlos
+cn: Carlos Benito
+sn: Adiministracion
+uidNumber: 10103
+gidNumber: 5103
+userPassword: {SHA}sD27M6dS7toODPqICD0cEuSsBwCgq1aL
+loginShell: /bin/bash
+homeDirectory: /home/carlos
